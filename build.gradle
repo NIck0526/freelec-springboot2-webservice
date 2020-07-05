@@ -35,7 +35,9 @@ dependencies{
     compile('org.springframework.session:spring-session-jdbc') //spring-session-jdbc
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('org.springframework.security:spring-security-test')
-
+    
+    
+    compile("org.mariadb.jdbc:mariadb-java-client")//마리아DB
 }
 
 
